@@ -3,6 +3,9 @@ Glossary plugin
 
 This plugin takes some text and wraps it with an abbr tag with some glossary test you provide.
 
+Based on the excellent [Highlight plugin](http://johannburkard.de/blog/programming/javascript/highlight-javascript-text-higlighting-jquery-plugin.html)
+by Johann Burkard 
+
 ##Usage
 
     $(selector).glosr(obj terms, obj options);
