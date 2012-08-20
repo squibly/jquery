@@ -10,17 +10,20 @@ by Johann Burkard
 
     $(selector).glosr(obj terms, obj options);
 
+Parameters:
 
-    terms = An object of terms and the glossary text to add to them
-    options = Some options you can set
+    terms - An object of terms and the glossary text to add to them
+    options - Glosr settings that can be changed 
+
 
 ###Available options
-    'wrapper' : (string) the tag you want to wrap the term in, defaults to 'abbr'
-    'class' : (string) extra classes you want to add to the wrapper markup, defaults to 'glosr'
-    'before' : (string) prepends this string before the term but inside the wrapper tag, default empty
-    'after' : (string) appends this string after the term but inside the wrapper tag, default empty
+    'wrapper'          : (string) the tag you want to wrap the term in, defaults to 'abbr'
+    'class'            : (string) extra classes you want to add to the wrapper markup, defaults to 'glosr'
+    'before'           : (string) prepends this string before the term but inside the wrapper tag, default empty
+    'after'            : (string) appends this string after the term but inside the wrapper tag, default empty
     'before_and_after' : (string) prepends and appends the string to the text between the wrapper tag, this
                          takes precedence over the individual 'before' and 'after' options.
+
 
 ##Example
 
