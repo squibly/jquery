@@ -38,7 +38,7 @@ by Johann Burkard
     <script>
         jQuery('#content').glosr({
             'glosr' : 'The plugin that makes this possible!',
-            'html markup' : 'Hypertext Markup Language, what web pages are written in.'
+            'html markup' : 'Hypertext Markup Language, what the www is written in.'
         }, {
             'class' : 'css-class',
         });
