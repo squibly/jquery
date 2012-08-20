@@ -1,4 +1,4 @@
-jquery
+jQuery plugins
 ======
 
-jQuery Plugins
+Contains some jQuery plugins
